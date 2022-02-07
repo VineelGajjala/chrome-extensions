@@ -11,6 +11,18 @@
     "browser_action": {
         "default_title": "SrikarChanger"
     },
+    "theme": {
+        "colors":{
+			"frame":[39,43,53],
+			"frame_incognito":[39,43,53],
+			"frame_inactive":[39,43,53],
+			"frame_incognito_inactive":[39,43,53],
+			"toolbar":[39,43,53],
+			"tab_text":[255,255,255],
+			"tab_background_text":[255,255,255],
+			"bookmark_text":[255,255,255]
+		}
+    },
     "permissions": ["tabs"]
 }
 

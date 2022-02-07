@@ -1,4 +1,4 @@
-document.body.style.backgroundImage = "url('srikar.PNG')";
+//document.body.style.backgroundColor = "grey";
 
 //alert("Hey")
 
