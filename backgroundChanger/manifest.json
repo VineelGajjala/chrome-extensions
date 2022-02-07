@@ -9,7 +9,7 @@
         }
     ],
     "browser_action": {
-        "default_title": "SrikarChanger"
+        "default_title": "darktheme"
     },
     "theme": {
         "colors":{
