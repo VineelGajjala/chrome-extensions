@@ -7,3 +7,6 @@
 
 ## Bear
 #### Created a web extension that finds the count of the word 'bear' on a page, and saves it for future reference
+
+## backgroundChanger
+#### Created a dark theme for google chrome
