@@ -21,9 +21,14 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo) {
     const url = changeInfo.pendingUrl || changeInfo.url;
     const norm = normalizeUrl(url);
     //alert(norm);
-    const yt = "youtube.com";
-    const tw = "twitter.com"
-    if (norm == yt || norm == tw) {
+    const bannedSites = [];
+    bannedSites.push("youtube.com");
+    bannedSites.push("twitter.com");
+    bannedSites.push("pokemonshowdown.com")
+
+    for (const site of bannedSites) {
+      if (site == norm) {
         chrome.tabs.remove(tabId);
+      }
     }
 })
